@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(224, 11, 11);  
     
-    color: #303030;
+    color: #000000;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -85,6 +85,18 @@ nav li a.active {
 }
 .zweefLinks {
   width: 250px;
+}
+
+.plane {
+  float: left;
+  border: solid 5px rgb(0, 0, 0);
+  margin-right: 8px;
+  width: 150px;
+  margin-top: 0px;
+}
+
+.title-plane {
+margin:0px;
 }
 
 

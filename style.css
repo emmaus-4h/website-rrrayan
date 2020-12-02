@@ -3,10 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(224, 11, 11);  
-    
+    background-color: rgb(131, 124, 124);  
+  
     color: #000000;
-    font: Verdana, Arial, Sans-Serif;
+    font-family:monospace;
 }
 
 
@@ -87,11 +87,15 @@ nav li a.active {
   width: 250px;
 }
 
+.belangrijk {
+  margin-top: 10px;
+}
+
 .plane {
   float: left;
   border: solid 5px rgb(0, 0, 0);
   margin-right: 8px;
-  width: 150px;
+  width: 250px;
   margin-top: 0px;
 }
 

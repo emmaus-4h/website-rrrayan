@@ -1,13 +1,13 @@
 /* Basislayout */
-
-html, body {
-    height: 100%;
-    padding: 0;
-    background-color: rgb(131, 124, 124);  
-  
-    color: #000000;
-    font-family:monospace;
-}
+ body {
+   background-image: url("plane.jpg");
+   background-repeat: no-repeat;
+   background-size: 2000px;
+   background-position: center;
+   font-family: monospace;
+    
+ }
+    
 
 
 main {
@@ -93,15 +93,11 @@ nav li a.active {
 
 .plane {
   float: left;
-  border: solid 5px rgb(0, 0, 0);
   margin-right: 8px;
-  width: 250px;
+  
   margin-top: 0px;
 }
 
-.title-plane {
-margin:0px;
-}
 
 
 

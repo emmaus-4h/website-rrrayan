@@ -1,11 +1,8 @@
 /* Basislayout */
- body {
-   background-image: url("plane.jpg");
-   background-repeat: no-repeat;
-   background-size: 2000px;
-   background-position: center;
-   font-family: monospace;
-    
+ html, body {
+  font-family: monospace;
+  background-color: white;
+  
  }
     
 
@@ -23,10 +20,13 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(196, 161, 48);
     text-align: center;
 }
 
+.hoofdtitel {
+  color 
+}
 
 footer {
     text-align: center;
@@ -91,13 +91,20 @@ nav li a.active {
   margin-top: 10px;
 }
 
-.plane {
+.etihad-logo {
   float: left;
   margin-right: 8px;
-  
-  margin-top: 0px;
+  margin-top: 2px;
+  width: 150px;
 }
 
+#info2 {
+margin-right:80px;
+}
 
-
-
+.airport {
+  width: 250px;
+  float: right;
+  margin-left; 8px;
+  margin-top: 2px;
+}

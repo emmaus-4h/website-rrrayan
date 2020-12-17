@@ -1,7 +1,8 @@
 /* Basislayout */
  html, body {
-  font-family: monospace;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: white;
+  margin: bold;
   
  }
     
@@ -9,7 +10,7 @@
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 1000px;
     position: relative;
 }
 
@@ -24,9 +25,9 @@ header {
     text-align: center;
 }
 
-.hoofdtitel {
+/* .hoofdtitel {
   color 
-}
+} */
 
 footer {
     text-align: center;
@@ -43,6 +44,7 @@ img.zweefLinks {
 
 .smalltext {
     font-size: 0.7em;
+    text-align: center;
 }
 
 a {
@@ -59,9 +61,10 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
+    padding: 5px;
     background-color: #dddddd;
     overflow: hidden;
+    border-radius: 25px;
 }
 
 nav ul li {
@@ -74,14 +77,16 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 25px;
 }
 
 nav li a:hover {
     background-color: #aaaaaa;
+    
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(196, 161, 48);
 }
 .zweefLinks {
   width: 250px;
@@ -93,18 +98,107 @@ nav li a.active {
 
 .etihad-logo {
   float: left;
-  margin-right: 8px;
-  margin-top: 2px;
+  padding-right: 8px;
+  padding-top: 15px;
   width: 150px;
 }
 
-#info2 {
-margin-right:80px;
-}
+.info1 { 
+  padding-top:17px;
+} 
 
 .airport {
-  width: 250px;
+  width: 175px;
   float: right;
-  margin-left; 8px;
-  margin-top: 2px;
+  margin-left: 8px;
+  margin-top: 0px;
+}
+
+.old {
+  width: 250px;
+  float: left;
+  padding-top: 17px; 
+  padding-right: 12px;
+}
+
+.type-planes {
+  float: left;
+  width: 275px;
+  margin-top: 17px;
+}
+
+.plane-info {
+  float: right;
+  overflow: auto;
+  width: 50%;
+  height:140px;
+  background-color: rgb(197, 195, 195);
+  margin-bottom: 8px;
+  color: rgb(138, 117, 48);
+}
+
+#boomer {
+  width: 275px;
+  float: left;
+  height: 120px;
+}
+
+.email {
+  margin-top: 900px;
+}
+
+#video1, #video2 , #video3 , #video4 {
+  width: 500px;
+  border-style: solid gray;
+}
+
+.Airport-old {
+float: right;
+margin-left: 5px;
+width: 347px;
+}
+
+.ok {
+  width: 10%;
+}
+
+#email {
+  margin-top: 30px;
+}
+
+.businessclass {
+  width: 250px;
+  margin-top: 15px;
+  margin-right: 5px;
+  float: left;
+}
+
+.business {
+  margin-top: 12px;
+}
+
+.copyright {
+  margin-top: 250px;
+}
+
+.covid {
+  float: left;
+  padding-top: 12px;
+  padding-right: 6px;
+  width: 250px;
+}
+
+#covid {
+padding-top: 10px;
+} 
+
+.kick {
+  margin-top: 30px;
+}
+
+.seats {
+  width: 275px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 360px;
 }
